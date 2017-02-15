@@ -1,0 +1,31 @@
+{% set version = "0.1.0" %}
+
+package:
+    name: matplusc3d
+    version: {{ version }}
+
+source:
+  path: ..
+
+build:
+    number: 2
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    entry_points:
+        - matplusc3d = matplusc3d.cli:main
+
+requirements:
+    build:
+        - python
+        - setuptools
+    run:
+        - click
+        - numpy
+        - scipy
+        - btk
+
+
+about:
+    home: https://github.com/anybody/matplusc3d
+    license: BSD
+    summary: Command line tool for adding virtual makers to Coda Motion C3D files from the information in exported Mat files.
+
