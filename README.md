@@ -6,11 +6,7 @@ Command line tool for adding virtual makers to Coda Motion C3D files from the
 information in exported Mat files.
 
 
-* Free software: BSD license
-* Documentation: https://matplusc3d.readthedocs.io.
-
-
-## Features
+## Details
 
 
 * C3D files from the Coda Motion system only contain the dynamic markers.
