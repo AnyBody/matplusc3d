@@ -1,4 +1,3 @@
-===============================
 matplusc3d
 ===============================
 
@@ -11,16 +10,16 @@ information in exported Mat files.
 * Documentation: https://matplusc3d.readthedocs.io.
 
 
-Features
---------
+## Features
+
 
 * C3D files from the Coda Motion system only contain the dynamic markers.
   Virtual markers can only be exported to MatLAB `.mat` files. This script
   can adds virtual markers information from MatLAB files into the C3D files.
 
 
-Install
--------
+## Install
+
 
 The easiest way to install is through the Anaconda Python Distribution and the conda package manager.
 You can download it here: https://conda.io/miniconda.html
@@ -52,8 +51,7 @@ C:\> activate py27
 The `py27` environement active you can run the install command above
 
 
-Usage
-------
+## Usage
 
 When installed, the script `matplusc3d` will be available. Give it a c3file as argument:
 
@@ -84,14 +82,4 @@ Options:
 (py27) C:\>
 ```
 
-
-
-
-Credits
----------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 
